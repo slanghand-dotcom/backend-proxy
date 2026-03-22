@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "src": "/bare/(.*)", "dest": "/bare/$1" },
+    { "src": "/uv/(.*)", "dest": "/uv/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
